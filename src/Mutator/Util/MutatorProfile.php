@@ -156,6 +156,7 @@ final class MutatorProfile
     public const REGEX = [
         Mutator\Regex\PregMatchMatches::class,
         Mutator\Regex\PregQuote::class,
+        Mutator\Regex\PregMatchIsNumeric::class
     ];
 
     public const REMOVAL = [
@@ -336,6 +337,7 @@ final class MutatorProfile
         //Regex
         'PregQuote' => Mutator\Regex\PregQuote::class,
         'PregMatchMatches' => Mutator\Regex\PregMatchMatches::class,
+        'PregMatchIsNumeric' => Mutator\Regex\PregMatchIsNumeric::class,
 
         //Removal
         'ArrayItemRemoval' => Mutator\Removal\ArrayItemRemoval::class,
