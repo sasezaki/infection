@@ -4,9 +4,6 @@ Killed mutants:
 
 
 Mutator: PublicVisibility
-Line 10
-
-Mutator: PublicVisibility
 Line 7
 
 Mutator: TrueValue
